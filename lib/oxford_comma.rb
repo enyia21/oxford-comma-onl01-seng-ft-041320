@@ -8,7 +8,7 @@ else
   final_element_replacement = "and #{array.last}"
   array.pop
   array << final_element_replacement
-  return array.join(", ")  
+  return array.join(", ")
 end
 
 
